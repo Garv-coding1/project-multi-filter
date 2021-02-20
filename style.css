@@ -1,0 +1,17 @@
+
+
+.btn-default:hover {
+    background-color: blue;
+    border: black 2px solid;
+}
+
+canvas {
+    animation-name: box_shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box_shadow {
+    from {box-shadow: red 2px 2px 20px;}
+    to {box-shadow: yellow 2px 2px 20px;}
+}
